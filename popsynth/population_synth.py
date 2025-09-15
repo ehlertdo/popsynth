@@ -1219,7 +1219,7 @@ class PopulationSynth(object, metaclass=ABCMeta):
 
                     flux_obs = np.exp(log10_fluxes_obs)
 
-                assert np.alltrue(np.isfinite(log10_fluxes_obs))
+                assert np.all(np.isfinite(log10_fluxes_obs))
 
             else:
 
