@@ -2,7 +2,7 @@ import abc
 from typing import Dict
 
 import numpy as np
-from class_registry import AutoRegister
+from class_registry.auto_register import AutoRegister
 
 from popsynth.utils.logging import setup_logger
 from popsynth.utils.meta import Parameter, ParameterMeta

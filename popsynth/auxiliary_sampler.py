@@ -3,7 +3,7 @@ from typing import Any, Dict, List, Optional
 
 import numpy as np
 import pandas as pd
-from class_registry import AutoRegister
+from class_registry.auto_register import AutoRegister
 from dotmap import DotMap
 from IPython.display import Markdown, Math, display
 from numpy.typing import ArrayLike

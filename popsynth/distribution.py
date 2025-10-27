@@ -5,7 +5,7 @@ from typing import Dict, Optional, Union
 import numpy as np
 import pandas as pd
 import scipy.integrate as integrate
-from class_registry import AutoRegister
+from class_registry.auto_register import AutoRegister
 from IPython.display import Markdown, Math, display
 from numpy.typing import ArrayLike
 
